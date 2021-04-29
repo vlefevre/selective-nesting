@@ -6,7 +6,7 @@
 
 module load fuji
 export LANG=C
-HOME_LOCAL=/fefs/scratch/bsc28/bsc28151/CHOLMOD-Tetsuzo/ompss/ompss
+HOME_LOCAL=/ompss
 export PATH=${HOME_LOCAL}/bin:$PATH
 	
 # compile
@@ -21,7 +21,7 @@ export NX_ARGS='--summary --stack-size=10000000'
 iter=100
 source groups.sh
 
-for f in "${group3[@]}"
+for f in "${group1[@]}"
 do
 	for i in `seq 1 $iter`
 	do
