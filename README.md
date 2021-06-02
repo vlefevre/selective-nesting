@@ -23,3 +23,5 @@ SN-70k
 SN-90k  
 Non-nested  
 Nested  
+
+Input files are read from _raw_results_ folder and output files are stored in _figs_.
